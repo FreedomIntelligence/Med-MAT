@@ -7,29 +7,49 @@ Through this dataset, we have demonstrated that Compositional Generalization (CG
 
 Here is a list of what has been released:
 
-1. QA pairs for 106 collected medical datasets: These datasets consist of image-label pairs, which we transformed into VQA pairs to facilitate direct training MLLMs.
-2. QA Pairs for 57 aggregated subsets: To facilitate the generalization experiments, we categorized the datasets by **M**odality, **A**natomical area, and **T**ask, then merged identical entries into subsets.
-3. Image download links: Due to licensing restrictions, some datasets cannot be shared directly. Users can easily download these datasets to specified directories for use.
+1. **QA Pairs for 106 Medical Datasets**: Image-label pairs converted into VQA pairs for MLLM training.
+2. **QA Pairs for 57 Aggregated Subsets**: Datasets categorized by **M**odality, **A**natomical Area, and **T**ask (MAT), with identical entries merged into subsets.
+3. **Image Download Links**: Some datasets cannot be shared due to licensing. Users can download them to specified directories.
 
 <div align=center>
-<img src="assets/process-medmat.jpg" width = "640" alt="medmat" align=center/>
+<img src="assets/process-medmat.jpg" width = "800" alt="medmat" align=center/>
 </div>
 
 
-## 💭 Motivation
-- To address the growing demand for quick medical consultations both online and in hospitals that do not necessarily require deep medical knowledge. We believe that LLMs like HuatuoGPT can be effectively utilized to meet these demands, freeing up physicians’ time and energy for more complex cases.
-- To provide open data for training medical LLMs. Building high-quality instruction training data for LLMs is essential, but it can be also challenging. We have constructed medical instruction data using various methods and made it publicly available. This dataset can be combined with other datasets to train one's own medical 'ChatGPT'.
-- To emphasize the importance of carefully evaluating the ability of medical LLMs before using them to offer medical assistance to patients. We recognize the potential benefits of LLMs in the medical field, but also acknowledge the need for thorough evaluation and testing to ensure patient safety and accurate diagnoses.
+## 💭 QA Pairs Construction
+
+To enable MLLMs to directly train and test on Med-MAT, the image-label pairs were converted into a Visual Question-Answering (VQA) format. The process involves the following steps:
+1. **Task Definition**: Each subset was manually assigned 6 instructions to guide the MLLM in answering the task related to the subset.
+2. **Conversion to VQA Format**: All image-label pairs were converted into single-choice questions with up to four answer options.
+3. **Distractor Selection**: Distractor options were randomly drawn from other labels within the subset to ensure variety.
+4. **Final Dataset**: The resulting dataset consisted of VQA pairs, where each image is paired with a question and four options, one of which is correct.
+
 
 ## 📚 Data
 
+Original_Medical_Datasets
+<details>
+  <summary>Click to view the details of 106 Medical Datasets</summary>
+  Hello!
+</details>
+
+Aggregated_Subsets
+<details>
+  <summary>Click to view the details of 57 Subsets</summary>
+  Hello!
+</details>
+
+## ⚒️ How to use the data
+
+TODO
+
 ## 🤖 Limitations
 
-Our goal with HuatuoGPT is to address the need for quick medical consultations, rather than replace doctors or provide full medical support to patients. However, our model does have several limitations that must be taken into consideration:
+## Acknowledgement
 
-- Misunderstandings: As with all language models, there is a risk of misunderstandings or misinterpretations, especially when dealing with medical jargon or complex conditions. In this scenario, our models may give wrong answers.
-- Hallucinations: Large language models can sometimes generate responses that do not make sense or are completely unrelated to the given input. These "hallucinations" can be especially problematic when users are not familiar with the concepts being discussed, as they may not be able to easily recognize the errors in the model's output. These "hallucinations" can be a challenge to detect and avoid.
-- Bias: LLMs are trained on large datasets, which can inadvertently introduce bias into the model's responses. Additionally, care should be taken to ensure that the model is not used to perpetuate biases in medical treatment.
+We appreciate the previous efforts in open-sourcing the medical imaging datasets used in this project.
+
+Please be sure to credit them when citing these datasets.
 
 ## Citation
 ```angular2
@@ -41,4 +61,4 @@ Our goal with HuatuoGPT is to address the need for quick medical consultations, 
 }
 ```
 
-We are from the Chinese University of Hong Kong, Shenzhen (CUHKSZ).
+We are from the Chinese University of Hong Kong, Shenzhen.
