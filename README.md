@@ -148,7 +148,62 @@ To enable MLLMs to directly train and test on Med-MAT, the image-label pairs wer
 **Aggregated_Subsets**
 <details>
   <summary>Click to view the details of 57 Subsets</summary>
-  Hello!
+
+| **No.**| **Modality** | **Area** | **Task** |
+| ------ | ------- | -------- | -------- |
+|01 | Co | Cervix | Cervical Picture Quality Evaluation |
+|02 | CT | Kidney | Kidney Diseases Classification |
+|03 | CT | Lung | COVID-19 Classification |
+|04 | CT | Lung | Lung Cancer Classification |
+|05 | CT | Brain | Brain Hemorrhage Classification |
+|06 | CT | Brain | Brain Cancer Classification |
+|07 | Der | Skin | Melanoma Type Classification |
+|08 | Der | Skin | Skin Diseases Classification |
+|09 | DP | Mouth | Teeth Condition Classification |
+|10 | DP | Mouth | Oral Cancer Classification |
+|11 | End | Intestine | Intestine Cleanliness Level |
+|12 | End | Bladder | Cancer Degree Classification |
+|13 | End | Intestine | Intestine Diseases Classification |
+|14 | FP | Fundus | Eye Diseases Classification |
+|15 | FP | Fundus | Multiple-labels Eye Diseases Classification |
+|16 | FP | Fundus | Blindness Level |
+|17 | FP | Fundus | Retinal Images Quality Evaluation |
+|18 | Mic | Cell | Cell Type Classification |
+|19 | Mic | Cell | Prostate Cancer Degree Classification |
+|20 | Mic | Cell | Multiple-labels Blood Cell Classification |
+|21 | Mic | Cell | Cancer Classification |
+|22 | MRI | Brain | Head Diseases Classification |
+|23 | OCT | Retina | Retina Diseases Classification |
+|24 | US | Breast | Breast Cancer Classification |
+|25 | X-ray | Bones | Degree Classification of Knee |
+|26 | X-ray | Bones | Fractured Classification |
+|27 | X-ray | Bones | Vertebrae Diseases Classification |
+|28 | X-ray | Lung | COVID-19 and Pneumonia Classification |
+|29 | X-ray | Breast | Breast Diseases Classification |
+|30 | X-ray | Lung | Tuberculosis Classification |
+|31 | X-ray | Chest | Multiple-labels Chest Classification |
+|32 | X-ray | Brain | Tumor Classification |
+|33 | Mic | Cell | Multi-labels Diseases |
+|34 | FP | Fundus | Level Identification |
+|35 | X-ray | Bones | Level Identification |
+|36 | X-ray | Bones | Spinal lesion Classification |
+|37 | X-ray | Breast | Multi-labels Diseases |
+|38 | Der | Skin | Lesion Det/Seg |
+|39 | End | Intestine | PolyP Det/Seg |
+|40 | End | Intestine | Surgical Procedures Det/Seg |
+|41 | End | Intestine | Multi-labels Det/Seg |
+|42 | Mic | Cell | Cancer Cell Det/Seg |
+|43 | US | Chest | Cancer Det/Seg |
+|44 | US | Thyroid | Thyroid Nodule Region Det/Seg |
+|45 | MRI | Intestine | Multi-labels Det/Seg |
+|46 | MRI | Liver | Liver Det/Seg |
+|47 | X-ray | Lung | Lung Det/Seg |
+|48 | X-ray | Lung | Pneumothorax Det/Seg |
+|49 | X-ray | Bones | Spinal Anomaly Det |
+|50 | X-ray | Chest | Multi-labels Det |
+|51 | FP | Fundus | Vessel Seg |
+|52 | FP | Fundus | Optic Disc and Cup Seg |
+|53 | FP | Fundus | Optic Disc Seg |
 </details>
 
 ## ⚒️ How to use the data
