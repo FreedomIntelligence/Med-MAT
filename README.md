@@ -12,7 +12,7 @@ Here is a list of what has been released:
 3. Image download links: Due to licensing restrictions, some datasets cannot be shared directly. Users can easily download these datasets to specified directories for use.
 
 <div align=center>
-<img src="assets/huatuo.png" width = "640" alt="HuatuoGPT" align=center/>
+<img src="assets/process-medmat.jpg" width = "640" alt="medmat" align=center/>
 </div>
 
 
