@@ -1,7 +1,7 @@
 # Med-MAT: On the Compositional Generalization of Multimodal LLMs for Medical Imaging
 
 ## ⚡ Introduction
-Welcome to the repository of Med-MAT, a VQA dataset consisting of 106 medical image-text pairs, which we hope will advance generalization experiments and aid in training powerful medical Multimodal Large Language Models (MLLMs).
+Welcome to the repository of Med-MAT, a VQA dataset consisting of 106 medical image-text pairs, which we hope will advance generalization experiments and aid in training powerful medical multimodal large language models (MLLMs).
 
 Through this dataset, we have demonstrated that Compositional Generalization (CG) is one of the key mechanisms for MLLMs to understand unseen images, enabling them to handle unfamiliar images and achieve data-efficient training.
 
@@ -12,7 +12,7 @@ Through this dataset, we have demonstrated that Compositional Generalization (CG
 Here is a list of what has been released:
 
 1. **QA Pairs for 106 Medical Datasets**: Image-label pairs converted into VQA pairs for MLLM training.
-2. **QA Pairs for 57 Aggregated Subsets**: Datasets categorized by **M**odality, **A**natomical Area, and **T**ask (MAT), with identical entries merged into subsets.
+2. **QA Pairs for 53 Aggregated Subsets**: Datasets categorized by **M**odality, **A**natomical Area, and **T**ask (MAT), with identical entries merged into subsets.
 3. **Image Download Links**: Some datasets cannot be shared due to licensing. Users can download them to specified directories.
 
 
@@ -64,7 +64,7 @@ To enable MLLMs to directly train and test on Med-MAT, the image-label pairs wer
 | 29 |[APTOS 2019 Blindness](https://www.kaggle.com/competitions/aptos2019-blindness-detection)|FP|Fundus|Blindness Level Identification 0~4|
 | 30 |[DRIMBD](https://www.kaggle.com/datasets/subhajournal/drimdb-diabetic-retinopathy-images-database)|FP|Fundus|Quality Testing of Retinal Images|
 | 31 |[Glaucoma Detection](https://www.kaggle.com/datasets/sshikamaru/glaucoma-detection)|FP|Fundus|Glaucoma Classification|
-| 32 |[AIROGS](https://zenodo.org/records/5793241)|FP|Fundus|Glaucoma Classification|
+| 32 |[AIROGS](https://zenodo.org/records/93241)|FP|Fundus|Glaucoma Classification|
 | 33 |[ICPR-HEp-2](https://github.com/KaikaiZhao/HEp-2_cell_classification)|Mic|Cell|Multi Classification|
 | 34 |[SICAPv2](https://data.mendeley.com/datasets/9xxm58dvs3/1)|Mic|Cell|Cancer Degree Classification|
 | 35 |[Blood Cell Images](https://www.kaggle.com/datasets/paultimothymooney/blood-cells)|Mic|Cell|Blood Cell Classificaion (Multi)|
@@ -89,7 +89,7 @@ To enable MLLMs to directly train and test on Med-MAT, the image-label pairs wer
 | 54 |[Shenzhen Chest X-Ray Set](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#tuberculosis-image-data-sets)|X-Ray|Lung|COVID19, Classification Dataset.|
 | 55 |[Chest X-ray PD](https://data.mendeley.com/datasets/jctsfj2sfn/1)|X-Ray|Lung|COVID and Pneumonia|
 | 56 |[COVID-19 CHEST X-RAY DATABASE](https://www.heywhale.com/mw/dataset/6027caee891f960015c863d7/content)|X-Ray|Lung|COVID and Pneumonia|
-| 57 |[COVIDGR](https://github.com/ari-dasci/covidgr)|X-Ray|Lung|COVID19, Classification|
+|  |[COVIDGR](https://github.com/ari-dasci/covidgr)|X-Ray|Lung|COVID19, Classification|
 | 58 |[MIAS](https://www.kaggle.com/datasets/kmader/mias-mammography)|X-Ray|Breast|Multi Classification of Breast|
 | 59 |[Tuberculosis Chest X-Ray Database](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset)|X-Ray|Lung|Tuberculosis|
 | 60 |[Pediatric Pneumonia Chest X-Ray](https://www.kaggle.com/datasets/andrewmvd/pediatric-pneumonia-chest-xray)|X-Ray|Lung|Pneumonia Classification|
@@ -147,7 +147,7 @@ To enable MLLMs to directly train and test on Med-MAT, the image-label pairs wer
 
 **Aggregated_Subsets**
 <details>
-  <summary>Click to view the details of 57 Subsets</summary>
+  <summary>Click to view the details of 53 Subsets</summary>
 
 | **No.**| **Modality** | **Area** | **Task** |
 | ------ | ------- | -------- | -------- |
