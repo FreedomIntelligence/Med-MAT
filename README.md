@@ -231,8 +231,9 @@ If you only want to use some part of the Med-MAT datasets, you can selectively d
 Here’s a sample from Med-MAT:
 - **caption**: The original label from the collected medical datasets.
 - **image**: Path to the corresponding image.
-- **Question and Answer**: Caption-based QA pairs.
-- **Question-choice and Answer-choice**: Multiple-choice QA pairs.
+- **Question** and **Answer**: Caption-based QA pairs.
+- **Question-choice** and **Answer-choice**: Multiple-choice QA pairs.
+- **data-no**: Number of its original medical dataset.
 ```json
 {
     "id": 1,
