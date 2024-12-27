@@ -27,6 +27,26 @@ To enable MLLMs to directly train and test on Med-MAT, the image-label pairs wer
 
 ## 📚 Data
 
+You can access the QA pairs of Med-MAT through [HF Link](https://huggingface.co/datasets/FreedomIntelligence/Med-MAT).
+
+The table below provides the download links for all datasets. After downloading the images to the "med-mat" folder and placing the corresponding JSON files as shown, you can easily access Med-MAT.
+
+```
+┬─ med-mat
+│   ├─ CT_Kindney_Dataset
+│   └─ ... (unzipped datasets)
+└─ Aggregated_Subsets
+│   ├─ Subset--01-train.json
+│   ├─ Subset--02-train.json
+│   └─ ... (other subsets)
+└─ Original_Medical_Datasets
+    ├─ Ori--01-train.json
+    ├─ Ori--02-train.json
+    └─ ... (other medical datasets)
+```
+
+If you only want to use some part of the Med-MAT datasets, you can selectively download the corresponding images and JSON files for the chosen datasets.
+
 **Original_Medical_Datasets**
 <details>
 <summary>Click to view the details of 106 Medical Datasets</summary>
@@ -206,9 +226,25 @@ To enable MLLMs to directly train and test on Med-MAT, the image-label pairs wer
 |53 | FP | Fundus | Optic Disc Seg |
 </details>
 
-## ⚒️ How to use the data
+## ⚒️ Data Construction
 
-TODO
+Here’s a sample from Med-MAT:
+- **caption**: The original label from the collected medical datasets.
+- **image**: Path to the corresponding image.
+- **Question and Answer**: Caption-based QA pairs.
+- **Question-choice and Answer-choice**: Multiple-choice QA pairs.
+```json
+{
+    "id": 1,
+    "caption": "Cyst",
+    "image": "med-mat/CT_Kindney_Dataset/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Cyst/Cyst- (561).jpg",
+    "Question": "Review this kidney CT scan and determine the possible condition it represents.",
+    "Answer": "Cyst",
+    "Question-choice": "Review this kidney CT scan and determine the possible condition it represents.\nA: Stone\nB: Cyst\nC: Normal\nD: Tumor\nAnswer with the option's letter from the given choices directly.",
+    "Answer-choice": "B",
+    "data-no": "2"
+}
+```
 
 ## 🤖 Limitations
 
