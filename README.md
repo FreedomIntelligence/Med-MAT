@@ -1,5 +1,8 @@
 # Med-MAT: On the Compositional Generalization of Multimodal LLMs for Medical Imaging
 
+## ✨ Latest News
+- [12/27/2024]: Release the classification datasets in Med-MAT. The detection/segmentation datasets are coming soon.
+
 ## ⚡ Introduction
 Welcome to the repository of Med-MAT, a VQA dataset consisting of 106 medical image-text pairs, which we hope will advance generalization experiments and aid in training powerful medical multimodal large language models (MLLMs).
 
