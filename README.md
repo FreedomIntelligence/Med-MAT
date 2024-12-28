@@ -4,7 +4,7 @@
 - [12/27/2024]: Release the classification datasets in Med-MAT. The detection/segmentation datasets are coming soon.
 
 ## ⚡ Introduction
-Welcome to the repository of Med-MAT, a VQA dataset consisting of 106 medical image-text pairs, which we hope will advance generalization experiments and aid in training powerful medical multimodal large language models (MLLMs).
+Welcome to the repository of Med-MAT, a VQA dataset consisting of 106 open-source medical datasets, which we hope will advance generalization experiments and aid in training powerful medical multimodal large language models (MLLMs).
 
 Through this dataset, we have demonstrated that Compositional Generalization (CG) is one of the key mechanisms for MLLMs to understand unseen images, enabling them to handle unfamiliar images and achieve data-efficient training.
 
