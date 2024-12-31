@@ -1,11 +1,13 @@
 # Med-MAT: On the Compositional Generalization of Multimodal LLMs for Medical Imaging
 
+The definition of **MAT** states that all data in the dataset are organized according to their **M**odality, **A**natomical Area, and **T**ask. Additionally, MAT is designed to lay out like a mat, covering as many medical domians as possible.
+
 ## ✨ Latest News
 - [12/31/2024]: Release the paper [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/abs/2412.20070), in which we found that multimodal LLMs can use compositional generalization to understand unseen medical images.
 - [12/27/2024]: Release the classification datasets in Med-MAT. The detection/segmentation datasets are coming soon.
 
 ## ⚡ Introduction
-Welcome to the repository of Med-MAT, a VQA dataset consisting of 106 open-source medical datasets, which we hope will advance generalization experiments and aid in training powerful medical multimodal large language models (MLLMs).
+Welcome to the repository of Med-MAT, a VQA dataset consisting of 106 open-source medical datasets, which we hope will advance generalization experiments and aid in training powerful medical multimodal large language models (MLLMs)
 
 Through this dataset, we have demonstrated that Compositional Generalization (CG) is one of the key mechanisms for MLLMs to understand unseen images, enabling them to handle unfamiliar images and achieve data-efficient training.
 
