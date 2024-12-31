@@ -1,6 +1,7 @@
 # Med-MAT: On the Compositional Generalization of Multimodal LLMs for Medical Imaging
 
 ## ✨ Latest News
+- [12/31/2024]: Release the paper [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/abs/2412.20070), in which we found that multimodal LLMs can use compositional generalization to understand unseen medical images.
 - [12/27/2024]: Release the classification datasets in Med-MAT. The detection/segmentation datasets are coming soon.
 
 ## ⚡ Introduction
@@ -255,3 +256,16 @@ Here’s a sample from Med-MAT:
 We appreciate the previous efforts in open-sourcing the medical imaging datasets used in this project.
 
 Please be sure to credit them when citing these datasets.
+
+## 📖 Citation
+```
+@misc{cai2024compositionalgeneralizationmultimodalllms,
+      title={On the Compositional Generalization of Multimodal LLMs for Medical Imaging}, 
+      author={Zhenyang Cai and Junying Chen and Rongsheng Wang and Weihong Wang and Yonglin Deng and Dingjie Song and Yize Chen and Zixu Zhang and Benyou Wang},
+      year={2024},
+      eprint={2412.20070},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.20070}, 
+}
+```
