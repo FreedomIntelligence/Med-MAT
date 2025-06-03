@@ -1,4 +1,4 @@
-# [ACL 2025 Main] Med-MAT: On the Compositional Generalization of Multimodal LLMs for Medical Imaging
+# [ACL 2025 Main] Med-MAT: Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging
 
 The definition of **MAT** states that all data in the dataset are organized according to their **M**odality, **A**natomical Area, and **T**ask. Additionally, MAT is designed to lay out like a mat, covering as many Modalities/Areas/Tasks as possible.
 
@@ -261,8 +261,8 @@ Please be sure to credit them when citing these datasets.
 
 ## 📖 Citation
 ```
-@misc{cai2024compositionalgeneralizationmultimodalllms,
-      title={On the Compositional Generalization of Multimodal LLMs for Medical Imaging}, 
+@misc{cai2024medmat,
+      title={Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging}, 
       author={Zhenyang Cai and Junying Chen and Rongsheng Wang and Weihong Wang and Yonglin Deng and Dingjie Song and Yize Chen and Zixu Zhang and Benyou Wang},
       year={2024},
       eprint={2412.20070},
