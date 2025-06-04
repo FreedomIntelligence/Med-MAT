@@ -3,7 +3,7 @@
 The definition of **MAT** states that all data in the dataset are organized according to their **M**odality, **A**natomical Area, and **T**ask. Additionally, MAT is designed to lay out like a mat, covering as many Modalities/Areas/Tasks as possible.
 
 ## ✨ Latest News
-- [12/31/2024]: Release the paper [On the Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/abs/2412.20070), in which we found that multimodal LLMs can use compositional generalization to understand unseen medical images.
+- [12/31/2024]: Release the paper [Exploring Compositional Generalization of Multimodal LLMs for Medical Imaging](https://arxiv.org/abs/2412.20070v2), in which we found that multimodal LLMs can use compositional generalization to understand unseen medical images.
 - [12/27/2024]: Release the classification datasets in Med-MAT. The detection/segmentation datasets are coming soon.
 
 ## ⚡ Introduction
@@ -268,6 +268,6 @@ Please be sure to credit them when citing these datasets.
       eprint={2412.20070},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.20070}, 
+      url={https://arxiv.org/abs/2412.20070v2}, 
 }
 ```
